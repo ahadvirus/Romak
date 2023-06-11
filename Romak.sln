@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{DE68D76F-7EA1-4679-9DBD-DF8099C1166B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romak.Bootstrapper", "Apps\Romak.Bootstrapper\Romak.Bootstrapper.csproj", "{06522DE7-620B-4D8E-8021-DEE78A4B8D12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5F1E3436-9408-4D43-8844-38BDFD77B7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romak.Data", "Libraries\Romak.Data\Romak.Data.csproj", "{37569CE4-9FC7-488A-97BD-5C62E263DB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romak.Infrastructure", "Libraries\Romak.Infrastructure\Romak.Infrastructure.csproj", "{0D691AF7-9E3B-4B82-97E8-44859A6681A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romak.Models", "Libraries\Romak.Models\Romak.Models.csproj", "{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Romak.Commons", "Libraries\Romak.Commons\Romak.Commons.csproj", "{5603C8CB-6427-4635-8C57-9B3CC61B9772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06522DE7-620B-4D8E-8021-DEE78A4B8D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06522DE7-620B-4D8E-8021-DEE78A4B8D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06522DE7-620B-4D8E-8021-DEE78A4B8D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06522DE7-620B-4D8E-8021-DEE78A4B8D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37569CE4-9FC7-488A-97BD-5C62E263DB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37569CE4-9FC7-488A-97BD-5C62E263DB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37569CE4-9FC7-488A-97BD-5C62E263DB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37569CE4-9FC7-488A-97BD-5C62E263DB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D691AF7-9E3B-4B82-97E8-44859A6681A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D691AF7-9E3B-4B82-97E8-44859A6681A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D691AF7-9E3B-4B82-97E8-44859A6681A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D691AF7-9E3B-4B82-97E8-44859A6681A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5603C8CB-6427-4635-8C57-9B3CC61B9772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5603C8CB-6427-4635-8C57-9B3CC61B9772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5603C8CB-6427-4635-8C57-9B3CC61B9772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5603C8CB-6427-4635-8C57-9B3CC61B9772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06522DE7-620B-4D8E-8021-DEE78A4B8D12} = {DE68D76F-7EA1-4679-9DBD-DF8099C1166B}
+		{37569CE4-9FC7-488A-97BD-5C62E263DB79} = {5F1E3436-9408-4D43-8844-38BDFD77B7E2}
+		{0D691AF7-9E3B-4B82-97E8-44859A6681A7} = {5F1E3436-9408-4D43-8844-38BDFD77B7E2}
+		{3710EDCF-9EE7-44C3-842C-6CB23EAE8A0B} = {5F1E3436-9408-4D43-8844-38BDFD77B7E2}
+		{5603C8CB-6427-4635-8C57-9B3CC61B9772} = {5F1E3436-9408-4D43-8844-38BDFD77B7E2}
+	EndGlobalSection
+EndGlobal
